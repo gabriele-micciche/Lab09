@@ -72,7 +72,6 @@ class Model:
         self._valore_ottimo = -1
 
         # TODO
-        self._escursioni_parco = []
         for x in self.escursioni_map.values():
             if x.id_parco == id_parco:
                 self._escursioni_parco.append(x)
